@@ -1,0 +1,39 @@
+Connection en cours...
+start
+L'imprimante est connectée
+echo:Marlin 1.0.0
+echo: Last Updated: Dec  9 2013 23:00:56 | Author: (none, default config)
+Compiled: Dec  9 2013
+echo: Free Memory: 5268  PlannerBufferBytes: 1232
+echo:Stored settings retrieved
+echo:Steps per unit:
+echo:  M92 X40.41 Y40.41 Z800.00 E210.
+echo:Maximum feedrates (mm/s):
+echo:  M203 X350.00 Y350.00 Z15.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X10000 Y10000 Z20 E10000
+echo:Acceleration: S=acceleration, T=retract acceleration
+echo:  M204 S6000.00 T1200.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S35.00 T0.00 B20000 X20.00 Z0.40 E2.00
+echo:Home offset (mm):
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:PID settings:
+echo:   M301 P22.79 I1.31 D98.95
+>>>M501
+SENDING:M501
+echo:Stored settings retrieved
+echo:Steps per unit:
+echo:  M92 X40.41 Y40.41 Z800.00 E210.00
+echo:Maximum feedrates (mm/s):
+echo:  M203 X350.00 Y350.00 Z15.00 E100.00
+echo:Maximum Acceleration (mm/s2):
+echo:  M201 X10000 Y10000 Z20 E10000
+echo:Acceleration: S=acceleration, T=retract acceleration
+echo:  M204 S6000.00 T1200.00
+echo:Advanced variables: S=Min feedrate (mm/s), T=Min travel feedrate (mm/s), B=minimum segment time (ms), X=maximum XY jerk (mm/s),  Z=maximum Z jerk (mm/s),  E=maximum E jerk (mm/s)
+echo:  M205 S35.00 T0.00 B20000 X20.00 Z0.40 E2.00
+echo:Home offset (mm):
+echo:  M206 X0.00 Y0.00 Z0.00
+echo:PID settings:
+echo:   M301 P22.79 I1.31 D98.95

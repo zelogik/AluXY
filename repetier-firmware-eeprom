@@ -1,0 +1,72 @@
+SENDING:M205
+ok 0
+EPR:2 75 115200 Baudrate
+EPR:3 129 0.000 Filament printed [m]
+EPR:2 125 0 Printer active [s]
+EPR:2 79 360000 Max. inactive time [ms,0=off]
+EPR:2 83 120000 Stop stepper after inactivity [ms,0=off]
+EPR:3 3 40.4100 X-axis steps per mm
+EPR:3 7 40.4100 Y-axis steps per mm
+EPR:3 11 800.0000 Z-axis steps per mm
+EPR:3 15 350.000 X-axis max. feedrate [mm/s]
+EPR:3 19 350.000 Y-axis max. feedrate [mm/s]
+EPR:3 23 40.000 Z-axis max. feedrate [mm/s]
+EPR:3 27 40.000 X-axis homing feedrate [mm/s]
+EPR:3 31 40.000 Y-axis homing feedrate [mm/s]
+EPR:3 35 4.000 Z-axis homing feedrate [mm/s]
+EPR:3 39 20.000 Max. jerk [mm/s]
+EPR:3 47 0.300 Max. Z-jerk [mm/s]
+EPR:3 133 0.000 X home pos [mm]
+EPR:3 137 0.000 Y home pos [mm]
+EPR:3 141 0.000 Z home pos [mm]
+EPR:3 145 228.000 X max length [mm]
+EPR:3 149 235.000 Y max length [mm]
+EPR:3 153 216.000 Z max length [mm]
+EPR:3 51 3000.000 X-axis acceleration [mm/s^2]
+EPR:3 55 2000.000 Y-axis acceleration [mm/s^2]
+EPR:3 59 20.000 Z-axis acceleration [mm/s^2]
+EPR:3 63 9000.000 X-axis travel acceleration [mm/s^2]
+EPR:3 67 9000.000 Y-axis travel acceleration [mm/s^2]
+EPR:3 71 20.000 Z-axis travel acceleration [mm/s^2]
+EPR:0 880 0 Autolevel active (1/0)
+EPR:0 106 1 Bed Heat Manager [0-3]
+EPR:0 107 255 Bed PID drive max
+EPR:0 124 80 Bed PID drive min
+EPR:3 108 196.000 Bed PID P-gain
+EPR:3 112 10.000 Bed PID I-gain
+EPR:3 116 807.000 Bed PID D-gain
+EPR:0 120 255 Bed PID max value [0-255]
+EPR:3 200 210.000 Extr.1 steps per mm
+EPR:3 204 100.000 Extr.1 max. feedrate [mm/s]
+EPR:3 208 5.000 Extr.1 start feedrate [mm/s]
+EPR:3 212 10000.000 Extr.1 acceleration [mm/s^2]
+EPR:0 216 1 Extr.1 heat manager [0-3]
+EPR:0 217 255 Extr.1 PID drive max
+EPR:0 245 40 Extr.1 PID drive min
+EPR:3 218 22.7900 Extr.1 PID P-gain/dead-time
+EPR:3 222 1.3100 Extr.1 PID I-gain
+EPR:3 226 98.9500 Extr.1 PID D-gain
+EPR:0 230 255 Extr.1 PID max value [0-255]
+EPR:2 231 0 Extr.1 X-offset [steps]
+EPR:2 235 0 Extr.1 Y-offset [steps]
+EPR:1 239 1 Extr.1 temp. stabilize time [s]
+EPR:1 250 170 Extr.1 temp. for retraction when heating [C]
+EPR:1 252 2100 Extr.1 distance to retract when heating [mm]
+EPR:0 254 255 Extr.1 extruder cooler speed [0-255]
+EPR:3 300 210.000 Extr.2 steps per mm
+EPR:3 304 100.000 Extr.2 max. feedrate [mm/s]
+EPR:3 308 5.000 Extr.2 start feedrate [mm/s]
+EPR:3 312 10000.000 Extr.2 acceleration [mm/s^2]
+EPR:0 316 1 Extr.2 heat manager [0-3]
+EPR:0 317 255 Extr.2 PID drive max
+EPR:0 345 40 Extr.2 PID drive min
+EPR:3 318 22.7900 Extr.2 PID P-gain/dead-time
+EPR:3 322 1.3100 Extr.2 PID I-gain
+EPR:3 326 98.9500 Extr.2 PID D-gain
+EPR:0 330 255 Extr.2 PID max value [0-255]
+EPR:2 331 404 Extr.2 X-offset [steps]
+EPR:2 335 404 Extr.2 Y-offset [steps]
+EPR:1 339 1 Extr.2 temp. stabilize time [s]
+EPR:1 350 170 Extr.2 temp. for retraction when heating [C]
+EPR:1 352 2100 Extr.2 distance to retract when heating [mm]
+EPR:0 354 255 Extr.2 extruder cooler speed [0-255]
